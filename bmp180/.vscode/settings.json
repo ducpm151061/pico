@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "bmp180.h": "c",
+        "stdlib.h": "c"
+    }
+}

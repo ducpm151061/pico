@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {   "name": "Pico Debug",
+            "device": "RP2040",
+            "gdbPath": "gdb-multiarch",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/template.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/rp2040.cfg"
+            ],
+            // "openOCDLaunchCommands": [
+            //     "transport select swd",
+            //     "adapter speed 3000"
+            // ],
+            "runToMain": true,
+            "postRestartCommands": [
+                "break main",
+                "continue"
+            ]
+        }
+    ]
+}

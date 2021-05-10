@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "sparkfunccs811.h": "c",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "algorithm": "c",
+        "random": "cpp"
+    }
+}
