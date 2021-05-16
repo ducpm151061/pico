@@ -179,11 +179,15 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: 'Debug', 'Release', 'MinSizeRel', 'RelWithDebInfo'."
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "Debug;Release;MinSizeRel;RelWithDebInfo"
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -195,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/savaobay/Code/C/pico/template/build"
+			"value" : "/home/savaobay/Code/C/pico/bmp180/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -654,12 +658,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -731,7 +739,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/savaobay/Code/C/pico/template"
+			"value" : "/home/savaobay/Code/C/pico/bmp180"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -963,7 +971,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "template"
+			"value" : "bmp180"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1467,7 +1475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /home/savaobay/pico/pico-sdk/src/rp2040/hardware_regs /home/savaobay/pico/pico-sdk/src/rp2040/hardware_regs /home/savaobay/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /home/savaobay/pico/pico-sdk/src/rp2040/hardware_regs /home/savaobay/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1686,6 +1694,30 @@
 			"value" : "28c129decd38964df5236e30f1913f21"
 		},
 		{
+			"name" : "bmp180_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/savaobay/Code/C/pico/bmp180/build"
+		},
+		{
+			"name" : "bmp180_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/savaobay/Code/C/pico/bmp180"
+		},
+		{
 			"name" : "pico_sdk_BINARY_DIR",
 			"properties" : 
 			[
@@ -1695,7 +1727,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/savaobay/Code/C/pico/template/build/pico-sdk"
+			"value" : "/home/savaobay/Code/C/pico/bmp180/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_SOURCE_DIR",
@@ -1708,30 +1740,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/savaobay/pico/pico-sdk"
-		},
-		{
-			"name" : "template_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/savaobay/Code/C/pico/template/build"
-		},
-		{
-			"name" : "template_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/savaobay/Code/C/pico/template"
 		}
 	],
 	"kind" : "cache",

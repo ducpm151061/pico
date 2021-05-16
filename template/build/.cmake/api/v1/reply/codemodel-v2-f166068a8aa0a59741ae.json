@@ -888,7 +888,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-44d9cdaf54395291492e.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-ffa726efa8c43841eb58.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -916,7 +916,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "template::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-template-Debug-fc1c1449cf0b2d4d612f.json",
+					"jsonFile" : "target-template-Debug-559adc1dafc5fe6170ec.json",
 					"name" : "template",
 					"projectIndex" : 0
 				}

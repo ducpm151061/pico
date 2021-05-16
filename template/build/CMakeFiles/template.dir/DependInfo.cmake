@@ -22,6 +22,9 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -38,7 +41,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"template\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -80,9 +83,28 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/savaobay/pico/pico-sdk/src/common/pico_binary_info/include"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/hw"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
   "/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
   "/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
@@ -106,6 +128,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
@@ -114,7 +137,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "/home/savaobay/Code/C/pico/template/main.c" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/main.c.obj"
   )
@@ -122,6 +147,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -138,7 +166,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"template\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -180,7 +208,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/savaobay/pico/pico-sdk/src/common/pico_binary_info/include"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/hw"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/savaobay/Code/C/pico/template/build/CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
@@ -189,6 +221,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -205,7 +240,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"template\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -247,7 +282,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/include"
   "/home/savaobay/pico/pico-sdk/src/common/pico_binary_info/include"
   "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common"
+  "/home/savaobay/pico/pico-sdk/lib/tinyusb/hw"
+  "/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   )
 
 # Targets to which this target links.

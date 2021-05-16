@@ -289,24 +289,22 @@ void Adafruit_CCS811::_i2c_init()
   gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
   gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
   gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
-
-
 }
 
 void Adafruit_CCS811::read(uint8_t reg, uint8_t *buf, uint8_t num)
 {
   uint8_t pos = 0;
-
   // on arduino we need to read in 32 byte chunks
   while (pos < num)
   {
 
     uint8_t read_now = std::min((uint8_t)32, (uint8_t)(num - pos));
-    Wire.beginTransmission((uint8_t)_i2caddr);
-    Wire.write((uint8_t)reg + pos);
-    Wire.endTransmission();
 
-    i2c_read_blocking((uint8_t)_i2caddr, read_now);
+    // Wire.beginTransmission((uint8_t)_i2caddr);
+    // Wire.write((uint8_t)reg + pos);
+    // Wire.endTransmission();
+    i2c_write_blocking(i2c_default, reg + pos, &read_now, 1, true);
+
     //Wire.requestFrom((uint8_t)_i2caddr, read_now);
 
     for (int i = 0; i < read_now; i++)

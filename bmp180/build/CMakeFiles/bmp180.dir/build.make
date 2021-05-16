@@ -79,93 +79,93 @@ include CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/main.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bmp180.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/main.c.obj -c /home/savaobay/Code/C/pico/bmp180/main.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/main.c.obj -c /home/savaobay/Code/C/pico/bmp180/main.c
 
 CMakeFiles/bmp180.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/Code/C/pico/bmp180/main.c > CMakeFiles/bmp180.dir/main.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/Code/C/pico/bmp180/main.c > CMakeFiles/bmp180.dir/main.c.i
 
 CMakeFiles/bmp180.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/Code/C/pico/bmp180/main.c -o CMakeFiles/bmp180.dir/main.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/Code/C/pico/bmp180/main.c -o CMakeFiles/bmp180.dir/main.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
@@ -175,223 +175,223 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_divide
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
@@ -401,15 +401,15 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/ir
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
@@ -419,15 +419,15 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bi
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
@@ -442,28 +442,28 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/dou
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
@@ -483,28 +483,28 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/floa
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
@@ -514,15 +514,15 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/floa
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
@@ -550,288 +550,288 @@ CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_l
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/bmp180.dir/flags.make
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/savaobay/Code/C/pico/bmp180/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/bmp180.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 # Object files for target bmp180
 bmp180_OBJECTS = \
