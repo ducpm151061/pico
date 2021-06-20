@@ -1180,9 +1180,9 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xa8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccJ5Xy1A.o
- .data          0x0000000000000000        0x0 /tmp/ccJ5Xy1A.o
- .bss           0x0000000000000000        0x0 /tmp/ccJ5Xy1A.o
+ .text          0x0000000000000000        0x0 /tmp/ccng5VvW.o
+ .data          0x0000000000000000        0x0 /tmp/ccng5VvW.o
+ .bss           0x0000000000000000        0x0 /tmp/ccng5VvW.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1416,11 +1416,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccJ5Xy1A.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccng5VvW.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x68e8
+.text           0x0000000010000100     0x68f8
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1479,688 +1479,687 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000100002c0                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x000000001000035c       0x30 CMakeFiles/template.dir/main.c.obj
+ .text.main     0x000000001000035c       0x44 CMakeFiles/template.dir/main.c.obj
                 0x000000001000035c                main
  .text.gpio_set_function
-                0x000000001000038c       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000038c                gpio_set_function
+                0x00000000100003a0       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100003a0                gpio_set_function
  .text.gpio_init
-                0x00000000100003bc       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100003bc                gpio_init
- *fill*         0x00000000100003d2        0x2 
+                0x00000000100003d0       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100003d0                gpio_init
+ *fill*         0x00000000100003e6        0x2 
  .text.hw_claim_lock
-                0x00000000100003d4       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100003d4                hw_claim_lock
+                0x00000000100003e8       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100003e8                hw_claim_lock
  .text.hw_claim_unlock
-                0x00000000100003ec       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100003ec                hw_claim_unlock
+                0x0000000010000400       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000400                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x0000000010000400       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000400                hw_claim_or_assert
+                0x0000000010000414       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000414                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000436       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000436                hw_claim_unused_from_range
- *fill*         0x000000001000048e        0x2 
+                0x000000001000044a       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x000000001000044a                hw_claim_unused_from_range
+ *fill*         0x00000000100004a2        0x2 
  .text.spin_locks_reset
-                0x0000000010000490       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000490                spin_locks_reset
+                0x00000000100004a4       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100004a4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100004b0       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100004b0                next_striped_spin_lock_num
+                0x00000000100004c4       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100004c4                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x00000000100004cc       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100004cc                spin_lock_claim_unused
+                0x00000000100004e0       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100004e0                spin_lock_claim_unused
  .text.running_on_fpga
-                0x00000000100004ec       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x00000000100004ec                running_on_fpga
+                0x0000000010000500       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000500                running_on_fpga
  .text.sev_callback
-                0x0000000010000500        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000514        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_post_alloc_init
-                0x0000000010000508       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000051c       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x0000000010000548       0x78 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000548                timer_pool_entry_comparator
+                0x000000001000055c       0x78 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000055c                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x00000000100005c0       0xa4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100005d4       0xa4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x0000000010000664       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100006a2        0x2 
+                0x0000000010000678       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100006b6        0x2 
  .text.add_alarm_under_lock
-                0x00000000100006a4      0x174 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100006b8      0x174 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000818      0x308 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000082c      0x308 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000b20       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000b20                alarm_pool_init_default
+                0x0000000010000b34       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b34                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000b4c       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000b4c                alarm_pool_get_default
+                0x0000000010000b60       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b60                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000b78      0x140 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000b78                alarm_pool_add_alarm_at
+                0x0000000010000b8c      0x140 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b8c                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x0000000010000cb8       0xec CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000cb8                alarm_pool_cancel_alarm
+                0x0000000010000ccc       0xec CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ccc                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x0000000010000da4       0xa0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000da4                sleep_until
+                0x0000000010000db8       0xa0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000db8                sleep_until
  .text.sleep_us
-                0x0000000010000e44       0x2e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000e44                sleep_us
+                0x0000000010000e58       0x2e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e58                sleep_us
  .text.sleep_ms
-                0x0000000010000e72       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000e72                sleep_ms
- *fill*         0x0000000010000e86        0x2 
+                0x0000000010000e86       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e86                sleep_ms
+ *fill*         0x0000000010000e9a        0x2 
  .text.best_effort_wfe_or_timeout
-                0x0000000010000e88       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000e88                best_effort_wfe_or_timeout
+                0x0000000010000e9c       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e9c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010000f08       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000f1c       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000f94       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000f94                hardware_alarm_claim
+                0x0000000010000fa8       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000fa8                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000fac       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000fac                time_us_64
+                0x0000000010000fc0       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000fc0                time_us_64
  .text.busy_wait_until
-                0x0000000010000fc4       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000fc4                busy_wait_until
+                0x0000000010000fd8       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000fd8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010000fe8       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000fe8                hardware_alarm_set_callback
+                0x0000000010000ffc       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000ffc                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001078       0xc8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001078                hardware_alarm_set_target
+                0x000000001000108c       0xc8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000108c                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001140       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001140                hardware_alarm_cancel
+                0x0000000010001154       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001154                hardware_alarm_cancel
  .text.lock_init
-                0x0000000010001180       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010001180                lock_init
+                0x0000000010001194       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010001194                lock_init
  .text.mutex_init
-                0x0000000010001190       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001190                mutex_init
+                0x00000000100011a4       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100011a4                mutex_init
  .text.critical_section_init_with_lock_num
-                0x00000000100011aa        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x00000000100011aa                critical_section_init_with_lock_num
+                0x00000000100011be        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x00000000100011be                critical_section_init_with_lock_num
  .text.critical_section_init
-                0x00000000100011b6       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x00000000100011b6                critical_section_init
- *fill*         0x00000000100011ca        0x2 
+                0x00000000100011ca       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x00000000100011ca                critical_section_init
+ *fill*         0x00000000100011de        0x2 
  .text.ph_add_child_node
-                0x00000000100011cc       0xa4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100011e0       0xa4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x0000000010001270       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x00000000100012ae        0x2 
+                0x0000000010001284       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x00000000100012c2        0x2 
  .text.ph_clear
-                0x00000000100012b0       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100012b0                ph_clear
+                0x00000000100012c4       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100012c4                ph_clear
  .text.ph_post_alloc_init
-                0x0000000010001320        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001320                ph_post_alloc_init
- *fill*         0x000000001000132e        0x2 
+                0x0000000010001334        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001334                ph_post_alloc_init
+ *fill*         0x0000000010001342        0x2 
  .text.ph_merge_two_pass
-                0x0000000010001330       0xa8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001330                ph_merge_two_pass
+                0x0000000010001344       0xa8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001344                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100013d8      0x108 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013ec      0x108 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100014e0       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100014e0                ph_remove_head
+                0x00000000100014f4       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100014f4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100014f4       0xf8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100014f4                ph_remove_and_free_node
+                0x0000000010001508       0xf8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001508                ph_remove_and_free_node
  .text.runtime_init
-                0x00000000100015ec       0xcc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100015ec                runtime_init
- .text._exit    0x00000000100016b8        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100016b8                _exit
- .text.exit     0x00000000100016bc        0x6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100016bc                exit
- *fill*         0x00000000100016c2        0x2 
+                0x0000000010001600       0xcc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001600                runtime_init
+ .text._exit    0x00000000100016cc        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100016cc                _exit
+ .text.exit     0x00000000100016d0        0x6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100016d0                exit
+ *fill*         0x00000000100016d6        0x2 
  .text.__assert_func
-                0x00000000100016c4       0x3c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100016c4                __assert_func
- .text.panic    0x0000000010001700       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001700                panic
+                0x00000000100016d8       0x3c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100016d8                __assert_func
+ .text.panic    0x0000000010001714       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001714                panic
  .text.clock_configure
-                0x0000000010001730       0xe8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001730                clock_configure
+                0x0000000010001744       0xe8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001744                clock_configure
  .text.clocks_init
-                0x0000000010001818      0x124 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001818                clocks_init
+                0x000000001000182c      0x124 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000000001000182c                clocks_init
  .text.watchdog_start_tick
-                0x000000001000193c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x000000001000193c                watchdog_start_tick
+                0x0000000010001950       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001950                watchdog_start_tick
  .text.watchdog_update
-                0x000000001000194c       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x000000001000194c                watchdog_update
+                0x0000000010001960       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001960                watchdog_update
  .text._watchdog_enable
-                0x0000000010001960       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001960                _watchdog_enable
+                0x0000000010001974       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001974                _watchdog_enable
  .text.watchdog_reboot
-                0x00000000100019d0       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100019d0                watchdog_reboot
+                0x00000000100019e4       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00000000100019e4                watchdog_reboot
  .text.xosc_init
-                0x0000000010001a18       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001a18                xosc_init
+                0x0000000010001a2c       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001a2c                xosc_init
  .text.pll_init
-                0x0000000010001a40       0xd0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001a40                pll_init
+                0x0000000010001a54       0xd0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001a54                pll_init
  .text.set_raw_irq_handler_and_unlock
-                0x0000000010001b10       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b24       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x0000000010001b38       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b4c       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x0000000010001b6c       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b80       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x0000000010001bac       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001bac                irq_is_enabled
+                0x0000000010001bc0       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001bc0                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x0000000010001bc4       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001bc4                irq_set_mask_enabled
+                0x0000000010001bd8       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001bd8                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x0000000010001be4        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001be4                irq_set_enabled
- *fill*         0x0000000010001bf2        0x2 
+                0x0000000010001bf8        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001bf8                irq_set_enabled
+ *fill*         0x0000000010001c06        0x2 
  .text.irq_set_pending
-                0x0000000010001bf4       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001bf4                irq_set_pending
+                0x0000000010001c08       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001c08                irq_set_pending
  .text.irq_get_vtable_handler
-                0x0000000010001c04       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001c04                irq_get_vtable_handler
+                0x0000000010001c18       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001c18                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010001c14       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001c14                irq_set_exclusive_handler
+                0x0000000010001c28       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001c28                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010001c68      0x1ac CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001c68                irq_remove_handler
+                0x0000000010001c7c      0x1ac CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001c7c                irq_remove_handler
  .text.irq_set_priority
-                0x0000000010001e14       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001e14                irq_set_priority
+                0x0000000010001e28       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001e28                irq_set_priority
  .text.irq_add_tail_to_free_list
-                0x0000000010001e3c       0xf0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001e3c                irq_add_tail_to_free_list
+                0x0000000010001e50       0xf0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001e50                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001f2c       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001f2c                irq_init_priorities
+                0x0000000010001f40       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001f40                irq_init_priorities
  .text._out_null
-                0x0000000010001f42        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001f56        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010001f44        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x0000000010001f52       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001f58        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x0000000010001f66       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001f76       0xae CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001f8a       0xae CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002024      0x110 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002038      0x110 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x0000000010002134       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002148       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x00000000100021f0       0xe2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100022d2        0x2 
- .text._etoa    0x00000000100022d4      0x40c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x00000000100026e0      0x354 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002204       0xe2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100022e6        0x2 
+ .text._etoa    0x00000000100022e8      0x40c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x00000000100026f4      0x354 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002a34      0x628 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002a48      0x628 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x000000001000305c       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000305c                vfctprintf
- .text          0x000000001000307c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003070       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003070                vfctprintf
+ .text          0x0000000010003090       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x000000001000308c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000308c                rom_func_lookup
+                0x00000000100030a0       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100030a0                rom_func_lookup
  .text.rom_data_lookup
-                0x000000001000309c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000309c                rom_data_lookup
+                0x00000000100030b0       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100030b0                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100030ac       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100030ac                rom_funcs_lookup
- *fill*         0x00000000100030e2        0x2 
+                0x00000000100030c0       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100030c0                rom_funcs_lookup
+ *fill*         0x00000000100030f6        0x2 
  .text.__wrap___aeabi_idiv
-                0x00000000100030e4       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100030e4                __wrap___aeabi_idivmod
-                0x00000000100030e4                divmod_s32s32
-                0x00000000100030e4                div_s32s32
-                0x00000000100030e4                __wrap___aeabi_idiv
-                0x00000000100030ec                divmod_s32s32_unsafe
-                0x0000000010003118                divmod_s32s32_savestate
+                0x00000000100030f8       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100030f8                __wrap___aeabi_idivmod
+                0x00000000100030f8                divmod_s32s32
+                0x00000000100030f8                div_s32s32
+                0x00000000100030f8                __wrap___aeabi_idiv
+                0x0000000010003100                divmod_s32s32_unsafe
+                0x000000001000312c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x000000001000313c       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x000000001000313c                __wrap___aeabi_uidiv
-                0x000000001000313c                __wrap___aeabi_uidivmod
-                0x000000001000313c                div_u32u32
-                0x000000001000313c                divmod_u32u32
-                0x0000000010003144                divmod_u32u32_unsafe
-                0x000000001000316c                divmod_u32u32_savestate
+                0x0000000010003150       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003150                __wrap___aeabi_uidiv
+                0x0000000010003150                __wrap___aeabi_uidivmod
+                0x0000000010003150                div_u32u32
+                0x0000000010003150                divmod_u32u32
+                0x0000000010003158                divmod_u32u32_unsafe
+                0x0000000010003180                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010003190      0x430 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003190                div_s64s64
-                0x0000000010003190                divmod_s64s64
-                0x0000000010003190                __wrap___aeabi_ldivmod
-                0x00000000100031c8                div_u64u64
-                0x00000000100031c8                divmod_u64u64
-                0x00000000100031c8                __wrap___aeabi_uldivmod
-                0x00000000100031d8                divmod_u64u64_savestate
-                0x0000000010003200                divmod_s64s64_unsafe
-                0x0000000010003288                divmod_u64u64_unsafe
+                0x00000000100031a4      0x430 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100031a4                div_s64s64
+                0x00000000100031a4                divmod_s64s64
+                0x00000000100031a4                __wrap___aeabi_ldivmod
+                0x00000000100031dc                div_u64u64
+                0x00000000100031dc                divmod_u64u64
+                0x00000000100031dc                __wrap___aeabi_uldivmod
+                0x00000000100031ec                divmod_u64u64_savestate
+                0x0000000010003214                divmod_s64s64_unsafe
+                0x000000001000329c                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x00000000100035c0       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100035c0                __wrap___aeabi_drsub
-                0x00000000100035c6                __wrap___aeabi_dsub
-                0x00000000100035d8                __wrap___aeabi_dadd
-                0x00000000100035ea                __wrap___aeabi_ddiv
-                0x00000000100035fc                __wrap___aeabi_dmul
+                0x00000000100035d4       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100035d4                __wrap___aeabi_drsub
+                0x00000000100035da                __wrap___aeabi_dsub
+                0x00000000100035ec                __wrap___aeabi_dadd
+                0x00000000100035fe                __wrap___aeabi_ddiv
+                0x0000000010003610                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003614       0x6c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003614                __wrap___aeabi_cdrcmple
-                0x0000000010003624                __wrap___aeabi_cdcmple
-                0x0000000010003624                __wrap___aeabi_cdcmpeq
+                0x0000000010003628       0x6c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003628                __wrap___aeabi_cdrcmple
+                0x0000000010003638                __wrap___aeabi_cdcmple
+                0x0000000010003638                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003680        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003680                __wrap___aeabi_dcmplt
+                0x0000000010003694        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003694                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x000000001000368c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000368c                __wrap___aeabi_dcmple
+                0x00000000100036a0       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036a0                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x000000001000369c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000369c                __wrap___aeabi_dcmpge
+                0x00000000100036b0       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036b0                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x00000000100036ac        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100036ac                __wrap___aeabi_dcmpgt
+                0x00000000100036c0        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036c0                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x00000000100036b6       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100036b6                __wrap___aeabi_dcmpun
- *fill*         0x00000000100036d2        0x2 
+                0x00000000100036ca       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036ca                __wrap___aeabi_dcmpun
+ *fill*         0x00000000100036e6        0x2 
  .text.__wrap___aeabi_i2d
-                0x00000000100036d4       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100036d4                __wrap___aeabi_ui2d
-                0x00000000100036dc                __wrap___aeabi_i2d
+                0x00000000100036e8       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100036e8                __wrap___aeabi_ui2d
+                0x00000000100036f0                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x000000001000370c       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x000000001000370c                __wrap___aeabi_d2iz
-                0x000000001000370c                double2int_z
+                0x0000000010003720       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003720                __wrap___aeabi_d2iz
+                0x0000000010003720                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003754       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003754                double2uint
-                0x0000000010003754                __wrap___aeabi_d2uiz
+                0x0000000010003768       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003768                double2uint
+                0x0000000010003768                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x000000001000376c       0xb4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000001000376c                __aeabi_double_init
+                0x0000000010003780       0xb4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003780                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003820       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003820                double_table_shim_on_use_helper
+                0x0000000010003834       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003834                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003854       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003854                drsub_shim
-                0x000000001000385a                dsub_shim
+                0x0000000010003868       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003868                drsub_shim
+                0x000000001000386e                dsub_shim
  .text.dadd_shim
-                0x0000000010003864      0x15c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003864                dadd_shim
+                0x0000000010003878      0x15c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003878                dadd_shim
  .text.dmul_shim
-                0x00000000100039c0      0x15c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100039c0                dmul_shim
+                0x00000000100039d4      0x15c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100039d4                dmul_shim
  .text.ddiv_shim
-                0x0000000010003b1c      0x1b0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003b1c                ddiv_shim
+                0x0000000010003b30      0x1b0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003b30                ddiv_shim
  .text.dcordic_rot_step
-                0x0000000010003ccc       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003ccc                dcordic_rot_step
+                0x0000000010003ce0       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ce0                dcordic_rot_step
  .text.double2uint_shim
-                0x0000000010003d48        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d48                double2uint_shim
-                0x0000000010003d4a                double2ufix_shim
- *fill*         0x0000000010003d56        0x2 
+                0x0000000010003d5c        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003d5c                double2uint_shim
+                0x0000000010003d5e                double2ufix_shim
+ *fill*         0x0000000010003d6a        0x2 
  .text.double2uint64_shim
-                0x0000000010003d58       0x6c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d58                double2uint64_shim
-                0x0000000010003d5a                double2ufix64_shim
-                0x0000000010003d74                d2fix_a
+                0x0000000010003d6c       0x6c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003d6c                double2uint64_shim
+                0x0000000010003d6e                double2ufix64_shim
+                0x0000000010003d88                d2fix_a
  .text.dunpacks
-                0x0000000010003dc4       0x3c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003dc4                dunpacks
+                0x0000000010003dd8       0x3c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003dd8                dunpacks
  .text.__aeabi_lmul
-                0x0000000010003e00       0x32 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010003e00                __wrap___aeabi_lmul
- *fill*         0x0000000010003e32        0x2 
+                0x0000000010003e14       0x32 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010003e14                __wrap___aeabi_lmul
+ *fill*         0x0000000010003e46        0x2 
  .text.__aeabi_float_init
-                0x0000000010003e34       0xfc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010003e34                __aeabi_float_init
+                0x0000000010003e48       0xfc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003e48                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010003f30       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010003f30                float_table_shim_on_use_helper
- .text          0x0000000010003f64       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003f64                __aeabi_mem_init
- .text.memset   0x0000000010003f74        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003f74                __wrap_memset
- .text.memcpy   0x0000000010003f80        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003f80                __wrap___aeabi_memcpy
-                0x0000000010003f80                __wrap_memcpy
+                0x0000000010003f44       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010003f44                float_table_shim_on_use_helper
+ .text          0x0000000010003f78       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003f78                __aeabi_mem_init
+ .text.memset   0x0000000010003f88        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003f88                __wrap_memset
+ .text.memcpy   0x0000000010003f94        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003f94                __wrap___aeabi_memcpy
+                0x0000000010003f94                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x0000000010003f8c       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003fa0       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x000000001000400c       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004020       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x0000000010004050       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004064       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x0000000010004070       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004070                stdout_serialize_begin
+                0x0000000010004084       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004084                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x000000001000409c       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000409c                stdout_serialize_end
+                0x00000000100040b0       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100040b0                stdout_serialize_end
  .text.stdio_put_string
-                0x00000000100040ac       0x84 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100040c0       0x84 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x0000000010004130       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004130                stdio_set_driver_enabled
+                0x0000000010004144       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004144                stdio_set_driver_enabled
  .text.stdio_flush
-                0x0000000010004168       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004168                stdio_flush
+                0x000000001000417c       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000417c                stdio_flush
  .text.__wrap_puts
-                0x0000000010004188       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004188                __wrap_puts
+                0x000000001000419c       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000419c                __wrap_puts
  .text.__wrap_vprintf
-                0x00000000100041a4       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100041a4                __wrap_vprintf
+                0x00000000100041b8       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041b8                __wrap_vprintf
  .text.__wrap_printf
-                0x00000000100041e8       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100041e8                __wrap_printf
+                0x00000000100041fc       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041fc                __wrap_printf
  .text.stdio_init_all
-                0x0000000010004200        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004200                stdio_init_all
+                0x0000000010004214        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004214                stdio_init_all
  .text.resetd_init
-                0x0000000010004208        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- *fill*         0x000000001000420a        0x2 
+                0x000000001000421c        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ *fill*         0x000000001000421e        0x2 
  .text.resetd_reset
-                0x000000001000420c        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004220        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x0000000010004218       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000422c       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_complete_cb
-                0x000000001000424c        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004260        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x0000000010004250        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004264        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_request_cb
-                0x0000000010004254       0x68 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004268       0x68 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x00000000100042bc        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x00000000100042bc                usbd_app_driver_get_cb
+                0x00000000100042d0        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100042d0                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x00000000100042c8       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x00000000100042c8                tud_cdc_line_coding_cb
+                0x00000000100042dc       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100042dc                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x00000000100042fc       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100042fc                stdio_usb_in_chars
+                0x0000000010004310       0x70 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004310                stdio_usb_in_chars
  .text.low_priority_worker_irq
-                0x000000001000436c       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004380       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_out_chars
-                0x000000001000438c       0xd4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100043a0       0xd4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x0000000010004460       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004474       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x0000000010004470       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004470                stdio_usb_init
+                0x0000000010004484       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004484                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004500        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004500                tud_descriptor_device_cb
+                0x0000000010004514        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004514                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004508        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004508                tud_descriptor_configuration_cb
+                0x000000001000451c        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000451c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004510       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004510                tud_descriptor_string_cb
+                0x0000000010004524       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004524                tud_descriptor_string_cb
  .text.hw_endpoint_get_by_addr
-                0x0000000010004560       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004574       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.reset_ep0
-                0x000000001000457c       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004590       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text._hw_endpoint_alloc
-                0x00000000100045a8       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100045bc       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text._hw_endpoint_init
-                0x0000000010004624       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004638       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.hw_endpoint_init
-                0x00000000100046e0       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100046f4       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.hw_handle_buff_status
-                0x00000000100046f8       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000470c       0xbc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_rp2040_irq
-                0x00000000100047b4       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100047c8       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.hw_endpoint_xfer
-                0x0000000010004840       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004854       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.ep0_0len_status
-                0x0000000010004858       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000486c       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text._hw_endpoint_stall
-                0x000000001000486c       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004880       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.hw_endpoint_stall
-                0x00000000100048c0        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100048d4        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text._hw_endpoint_clear_stall
-                0x00000000100048cc       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100048e0       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.hw_endpoint_clear_stall
-                0x0000000010004900        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004914        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x000000001000490c       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000490c                dcd_int_enable
+                0x0000000010004920       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004920                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010004938       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004938                dcd_set_address
+                0x000000001000494c       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000494c                dcd_set_address
  .text.dcd_connect
-                0x0000000010004968       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004968                dcd_connect
+                0x000000001000497c       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000497c                dcd_connect
  .text.dcd_init
-                0x0000000010004998       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004998                dcd_init
+                0x00000000100049ac       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100049ac                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010004a28       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004a28                dcd_edpt0_status_complete
+                0x0000000010004a3c       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004a3c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010004a6c       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004a6c                dcd_edpt_open
+                0x0000000010004a80       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004a80                dcd_edpt_open
  .text.dcd_edpt_xfer
-                0x0000000010004aac       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004aac                dcd_edpt_xfer
+                0x0000000010004ac0       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004ac0                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010004ae0       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ae0                dcd_edpt_stall
+                0x0000000010004af4       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004af4                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010004b08       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004b08                dcd_edpt_clear_stall
+                0x0000000010004b1c       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b1c                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x0000000010004b30       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004b30                rp2040_usb_init
+                0x0000000010004b44       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004b44                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x0000000010004b80       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004b80                hw_endpoint_reset_transfer
+                0x0000000010004b94       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004b94                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x0000000010004b94       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004b94                _hw_endpoint_buffer_control_update32
+                0x0000000010004ba8       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004ba8                _hw_endpoint_buffer_control_update32
  .text._hw_endpoint_start_next_buffer
-                0x0000000010004be8       0x5a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004be8                _hw_endpoint_start_next_buffer
+                0x0000000010004bfc       0x5a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004bfc                _hw_endpoint_start_next_buffer
  .text._hw_endpoint_xfer_start
-                0x0000000010004c42       0x46 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004c42                _hw_endpoint_xfer_start
+                0x0000000010004c56       0x46 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004c56                _hw_endpoint_xfer_start
  .text._hw_endpoint_xfer_sync
-                0x0000000010004c88       0x74 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004c88                _hw_endpoint_xfer_sync
+                0x0000000010004c9c       0x74 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004c9c                _hw_endpoint_xfer_sync
  .text._hw_endpoint_xfer_continue
-                0x0000000010004cfc       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004cfc                _hw_endpoint_xfer_continue
+                0x0000000010004d10       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004d10                _hw_endpoint_xfer_continue
  .text._hw_endpoint_xfer
-                0x0000000010004d54       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004d54                _hw_endpoint_xfer
+                0x0000000010004d68       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004d68                _hw_endpoint_xfer
  .text.mark_interface_endpoint
-                0x0000000010004d88       0x2a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010004db2        0x2 
+                0x0000000010004d9c       0x2a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010004dc6        0x2 
  .text.usbd_reset
-                0x0000000010004db4       0x88 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004dc8       0x88 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.invoke_class_control
-                0x0000000010004e3c       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004e50       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.process_set_config
-                0x0000000010004e54      0x1cc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004e68      0x1cc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.process_get_descriptor
-                0x0000000010005020       0xf4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005034       0xf4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.tud_mounted
-                0x0000000010005114       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005114                tud_mounted
+                0x0000000010005128       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005128                tud_mounted
  .text.tud_suspended
-                0x0000000010005124       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005124                tud_suspended
+                0x0000000010005138       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005138                tud_suspended
  .text.tud_init
-                0x0000000010005134       0xb8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005134                tud_init
+                0x0000000010005148       0xb8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005148                tud_init
  .text.dcd_event_handler
-                0x00000000100051ec      0x1c4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100051ec                dcd_event_handler
+                0x0000000010005200      0x1c4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005200                dcd_event_handler
  .text.dcd_event_bus_signal
-                0x00000000100053b0       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100053b0                dcd_event_bus_signal
+                0x00000000100053c4       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100053c4                dcd_event_bus_signal
  .text.dcd_event_setup_received
-                0x00000000100053d6       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100053d6                dcd_event_setup_received
+                0x00000000100053ea       0x34 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100053ea                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x000000001000540a       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000540a                dcd_event_xfer_complete
+                0x000000001000541e       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000541e                dcd_event_xfer_complete
  .text.usbd_edpt_open
-                0x000000001000544e        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000544e                usbd_edpt_open
- *fill*         0x0000000010005456        0x2 
+                0x0000000010005462        0x8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005462                usbd_edpt_open
+ *fill*         0x000000001000546a        0x2 
  .text.usbd_open_edpt_pair
-                0x0000000010005458       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005458                usbd_open_edpt_pair
+                0x000000001000546c       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000546c                usbd_open_edpt_pair
  .text.usbd_edpt_claim
-                0x00000000100054e4       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100054e4                usbd_edpt_claim
+                0x00000000100054f8       0x8c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100054f8                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010005570       0x68 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005570                usbd_edpt_release
+                0x0000000010005584       0x68 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005584                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x00000000100055d8       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100055d8                usbd_edpt_xfer
+                0x00000000100055ec       0x80 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100055ec                usbd_edpt_xfer
  .text.usbd_edpt_stall
-                0x0000000010005658       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005658                usbd_edpt_stall
+                0x000000001000566c       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000566c                usbd_edpt_stall
  .text.usbd_edpt_clear_stall
-                0x0000000010005684       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005684                usbd_edpt_clear_stall
+                0x0000000010005698       0x2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005698                usbd_edpt_clear_stall
  .text.usbd_edpt_stalled
-                0x00000000100056b0       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100056b0                usbd_edpt_stalled
+                0x00000000100056c4       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100056c4                usbd_edpt_stalled
  .text.process_control_request
-                0x00000000100056cc      0x37c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100056e0      0x37c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .text.tud_task
-                0x0000000010005a48      0x204 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005a48                tud_task
+                0x0000000010005a5c      0x204 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005a5c                tud_task
  .text._data_stage_xact
-                0x0000000010005c4c       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005c60       0x58 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .text.tud_control_status
-                0x0000000010005ca4       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005ca4                tud_control_status
+                0x0000000010005cb8       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005cb8                tud_control_status
  .text.tud_control_xfer
-                0x0000000010005cdc       0xa8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005cdc                tud_control_xfer
+                0x0000000010005cf0       0xa8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005cf0                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010005d84       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005d84                usbd_control_reset
+                0x0000000010005d98       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005d98                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010005d98        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005d98                usbd_control_set_complete_callback
+                0x0000000010005dac        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005dac                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010005da4       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005da4                usbd_control_set_request
+                0x0000000010005db8       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005db8                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010005dc0       0xe8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005dc0                usbd_control_xfer_cb
+                0x0000000010005dd4       0xe8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005dd4                usbd_control_xfer_cb
  .text._prep_out_transaction
-                0x0000000010005ea8       0x46 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x0000000010005eee        0x2 
+                0x0000000010005ebc       0x46 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x0000000010005f02        0x2 
  .text.tud_cdc_n_connected
-                0x0000000010005ef0       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005ef0                tud_cdc_n_connected
+                0x0000000010005f04       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f04                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010005f38       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f38                tud_cdc_n_available
+                0x0000000010005f4c       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f4c                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010005f58       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f58                tud_cdc_n_read
+                0x0000000010005f6c       0x30 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f6c                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010005f88       0xc4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f88                tud_cdc_n_write_flush
+                0x0000000010005f9c       0xc4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f9c                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x000000001000604c       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000604c                tud_cdc_n_write
+                0x0000000010006060       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006060                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x0000000010006084       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006084                tud_cdc_n_write_available
+                0x0000000010006098       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006098                tud_cdc_n_write_available
  .text.cdcd_init
-                0x00000000100060a4       0xe0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100060a4                cdcd_init
+                0x00000000100060b8       0xe0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100060b8                cdcd_init
  .text.cdcd_reset
-                0x0000000010006184       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006184                cdcd_reset
+                0x0000000010006198       0x44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006198                cdcd_reset
  .text.cdcd_open
-                0x00000000100061c8      0x118 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100061c8                cdcd_open
+                0x00000000100061dc      0x118 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100061dc                cdcd_open
  .text.cdcd_control_complete
-                0x00000000100062e0       0x60 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100062e0                cdcd_control_complete
+                0x00000000100062f4       0x60 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100062f4                cdcd_control_complete
  .text.cdcd_control_request
-                0x0000000010006340       0x9c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006340                cdcd_control_request
+                0x0000000010006354       0x9c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006354                cdcd_control_request
  .text.cdcd_xfer_cb
-                0x00000000100063dc      0x130 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100063dc                cdcd_xfer_cb
+                0x00000000100063f0      0x130 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100063f0                cdcd_xfer_cb
  .text.tusb_init
-                0x000000001000650c       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000650c                tusb_init
+                0x0000000010006520       0x38 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006520                tusb_init
  .text.tusb_inited
-                0x0000000010006544        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006544                tusb_inited
+                0x0000000010006558        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006558                tusb_inited
  .text.advance_pointer
-                0x0000000010006550       0x1e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006564       0x1e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.backward_pointer
-                0x000000001000656e       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006582       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.get_relative_pointer
-                0x0000000010006588       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000659c       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.tu_fifo_lock
-                0x000000001000659e       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065b2       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.tu_fifo_unlock
-                0x00000000100065b0        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065c4        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text._tu_fifo_peek_at
-                0x00000000100065be       0x66 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065d2       0x66 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text._ff_pull_n
-                0x0000000010006624       0x4a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006638       0x4a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text._tu_fifo_peek_at_n
-                0x000000001000666e       0x72 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006682       0x72 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text._ff_push_n
-                0x00000000100066e0       0x4a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100066f4       0x4a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .text.tu_fifo_config
-                0x000000001000672a       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000672a                tu_fifo_config
+                0x000000001000673e       0x48 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000673e                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010006772       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006772                tu_fifo_count
+                0x0000000010006786       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006786                tu_fifo_count
  .text.tu_fifo_remaining
-                0x000000001000678e       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000678e                tu_fifo_remaining
+                0x00000000100067a2       0x20 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100067a2                tu_fifo_remaining
  .text.tu_fifo_read
-                0x00000000100067ae       0x3a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100067ae                tu_fifo_read
+                0x00000000100067c2       0x3a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100067c2                tu_fifo_read
  .text.tu_fifo_read_n
-                0x00000000100067e8       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100067e8                tu_fifo_read_n
+                0x00000000100067fc       0x3e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100067fc                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010006826       0x5c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006826                tu_fifo_write
+                0x000000001000683a       0x5c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000683a                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000010006882       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006882                tu_fifo_write_n
+                0x0000000010006896       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006896                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x00000000100068fe       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100068fe                tu_fifo_clear
- *fill*         0x0000000010006916        0x2 
- .text          0x0000000010006918       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x0000000010006918                strlen
+                0x0000000010006912       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006912                tu_fifo_clear
+ *fill*         0x000000001000692a        0x2 
+ .text          0x000000001000692c       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x000000001000692c                strlen
  *(.fini)
- .fini          0x0000000010006980        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x0000000010006980                _fini
- *fill*         0x0000000010006984        0x4 
- .fini.__stub   0x0000000010006988       0x60 linker stubs
+ .fini          0x0000000010006994        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x0000000010006994                _fini
+ .fini.__stub   0x0000000010006998       0x60 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2172,381 +2171,383 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x00000000100069e8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100069e8                . = ALIGN (0x4)
+ .eh_frame      0x00000000100069f8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000100069f8                . = ALIGN (0x4)
 
-.glue_7         0x00000000100069e8        0x0
- .glue_7        0x00000000100069e8        0x0 linker stubs
+.glue_7         0x00000000100069f8        0x0
+ .glue_7        0x00000000100069f8        0x0 linker stubs
 
-.glue_7t        0x00000000100069e8        0x0
- .glue_7t       0x00000000100069e8        0x0 linker stubs
+.glue_7t        0x00000000100069f8        0x0
+ .glue_7t       0x00000000100069f8        0x0 linker stubs
 
-.vfp11_veneer   0x00000000100069e8        0x0
- .vfp11_veneer  0x00000000100069e8        0x0 linker stubs
+.vfp11_veneer   0x00000000100069f8        0x0
+ .vfp11_veneer  0x00000000100069f8        0x0 linker stubs
 
-.v4_bx          0x00000000100069e8        0x0
- .v4_bx         0x00000000100069e8        0x0 linker stubs
+.v4_bx          0x00000000100069f8        0x0
+ .v4_bx         0x00000000100069f8        0x0 linker stubs
 
-.iplt           0x00000000100069e8        0x0
- .iplt          0x00000000100069e8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00000000100069f8        0x0
+ .iplt          0x00000000100069f8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x00000000100069e8     0x13bc
+.rodata         0x00000000100069f8     0x13cc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
+ .rodata.main.str1.4
+                0x00000000100069f8       0x10 CMakeFiles/template.dir/main.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x00000000100069e8       0x1b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010006a03        0x1 
+                0x0000000010006a08       0x1b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010006a23        0x1 
  .rodata.repeating_timer_callback.str1.4
-                0x0000000010006a04       0x4d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006a51        0x3 
+                0x0000000010006a24       0x4d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006a71        0x3 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x0000000010006a54       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006a76        0x2 
+                0x0000000010006a74       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006a96        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x0000000010006a78       0x96 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006b0e        0x2 
+                0x0000000010006a98       0x96 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006b2e        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x0000000010006b10       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010006b30       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x0000000010006b38       0x82 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006bba        0x2 
+                0x0000000010006b58       0x82 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006bda        0x2 
  .rodata.alarm_pool_get_default.str1.4
-                0x0000000010006bbc       0x21 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006bdd        0x3 
+                0x0000000010006bdc       0x21 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006bfd        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x0000000010006be0       0x27 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006c07        0x1 
+                0x0000000010006c00       0x27 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006c27        0x1 
  .rodata.sleep_until.str1.4
-                0x0000000010006c08       0x4d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006c55        0x3 
+                0x0000000010006c28       0x4d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006c75        0x3 
  .rodata.__func__.5929
-                0x0000000010006c58        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010006c78        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.5936
-                0x0000000010006c64       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006c76        0x2 
+                0x0000000010006c84       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006c96        0x2 
  .rodata.__func__.5952
-                0x0000000010006c78        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006c87        0x1 
+                0x0000000010006c98        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006ca7        0x1 
  .rodata.__func__.5974
-                0x0000000010006c88        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006c95        0x3 
+                0x0000000010006ca8        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006cb5        0x3 
  .rodata.__func__.6094
-                0x0000000010006c98        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006ca2        0x2 
+                0x0000000010006cb8        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006cc2        0x2 
  .rodata.__func__.6099
-                0x0000000010006ca4       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006cb6        0x2 
+                0x0000000010006cc4       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006cd6        0x2 
  .rodata.__func__.6114
-                0x0000000010006cb8       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006ccf        0x1 
+                0x0000000010006cd8       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006cef        0x1 
  .rodata.__func__.6125
-                0x0000000010006cd0       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006ce5        0x3 
+                0x0000000010006cf0       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006d05        0x3 
  .rodata.__func__.6142
-                0x0000000010006ce8       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010006d02        0x2 
+                0x0000000010006d08       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010006d22        0x2 
  .rodata.__func__.6181
-                0x0000000010006d04       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010006d24       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010006d1c       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010006d3e        0x2 
+                0x0000000010006d3c       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010006d5e        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x0000000010006d40       0x67 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010006da7        0x1 
+                0x0000000010006d60       0x67 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010006dc7        0x1 
  .rodata.__func__.4532
-                0x0000000010006da8       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010006dc2        0x2 
+                0x0000000010006dc8       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010006de2        0x2 
  .rodata.str1.4
-                0x0000000010006dc4       0x60 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010006de4       0x60 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4588
-                0x0000000010006e24       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x0000000010006e39        0x3 
+                0x0000000010006e44       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x0000000010006e59        0x3 
  .rodata.__func__.4607
-                0x0000000010006e3c       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010006e5c       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4616
-                0x0000000010006e54        0xb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010006e74        0xb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x0000000010006e5f       0x96 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010006e5f        0x1 
+                0x0000000010006e7f       0x96 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010006e7f        0x1 
  .rodata.ph_remove_any_head.str1.4
-                0x0000000010006e60       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010006e80       0x90 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_and_free_node.str1.4
-                0x0000000010006ef0       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010006f16        0x2 
- .rodata.__func__.5705
-                0x0000000010006f18        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.__func__.5712
-                0x0000000010006f24       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010006f10       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  *fill*         0x0000000010006f36        0x2 
+ .rodata.__func__.5705
+                0x0000000010006f38        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.__func__.5712
+                0x0000000010006f44       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010006f56        0x2 
  .rodata.__func__.5798
-                0x0000000010006f38       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010006f4b        0x1 
+                0x0000000010006f58       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010006f6b        0x1 
  .rodata.__func__.5816
-                0x0000000010006f4c       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010006f6c       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__assert_func.str1.4
-                0x0000000010006f64       0x3f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010006f84       0x3f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x43 (size before relaxing)
- *fill*         0x0000000010006fa3        0x1 
+ *fill*         0x0000000010006fc3        0x1 
  .rodata.panic.str1.4
-                0x0000000010006fa4       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010006fb6        0x2 
+                0x0000000010006fc4       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010006fd6        0x2 
  .rodata.clock_configure.str1.4
-                0x0000000010006fb8       0x59 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x0000000010007011        0x3 
+                0x0000000010006fd8       0x59 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x0000000010007031        0x3 
  .rodata.__func__.4652
-                0x0000000010007014       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010007034       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x0000000010007024       0xdb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x00000000100070ff        0x1 
+                0x0000000010007044       0xdb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x000000001000711f        0x1 
  .rodata.__func__.4382
-                0x0000000010007100        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010007109        0x3 
+                0x0000000010007120        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x0000000010007129        0x3 
  .rodata.make_branch.str1.4
-                0x000000001000710c       0x4f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000715b        0x1 
+                0x000000001000712c       0x4f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000717b        0x1 
  .rodata.irq_set_exclusive_handler.str1.4
-                0x000000001000715c       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007192        0x2 
+                0x000000001000717c       0x36 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100071b2        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x0000000010007194       0xd9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000726d        0x3 
+                0x00000000100071b4       0xd9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000728d        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x0000000010007270       0x2a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000729a        0x2 
+                0x0000000010007290       0x2a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100072ba        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x000000001000729c       0x32 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100072bc       0x32 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                          0x3a (size before relaxing)
- *fill*         0x00000000100072ce        0x2 
+ *fill*         0x00000000100072ee        0x2 
  .rodata.__func__.4492
-                0x00000000100072d0       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x00000000100072ea        0x2 
+                0x00000000100072f0       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000730a        0x2 
  .rodata.__func__.4506
-                0x00000000100072ec        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000730c        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4514
-                0x00000000100072f8       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000730f        0x1 
+                0x0000000010007318       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000732f        0x1 
  .rodata.__func__.4518
-                0x0000000010007310        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000731f        0x1 
+                0x0000000010007330        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000733f        0x1 
  .rodata.__func__.4557
-                0x0000000010007320       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007333        0x1 
+                0x0000000010007340       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007353        0x1 
  .rodata.__func__.4576
-                0x0000000010007334       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000734e        0x2 
+                0x0000000010007354       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000736e        0x2 
  .rodata._ftoa.str1.4
-                0x0000000010007350       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010007365        0x3 
+                0x0000000010007370       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010007385        0x3 
  .rodata._vsnprintf
-                0x0000000010007368      0x1e0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010007388      0x1e0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.5419
-                0x0000000010007548       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010007568       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x0000000010007598       0xaa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x0000000010007642        0x2 
+                0x00000000100075b8       0xaa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x0000000010007662        0x2 
  .rodata.__func__.4665
-                0x0000000010007644       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010007664       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x0000000010007658       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010007678       0x7c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                          0x80 (size before relaxing)
  .rodata.__func__.4667
-                0x00000000100076d4       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x00000000100076e7        0x1 
+                0x00000000100076f4       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x0000000010007707        0x1 
  .rodata.str1.4
-                0x00000000100076e8       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007708       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_40
-                0x0000000010007728        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007748        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_71
-                0x0000000010007734        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007754        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_77
-                0x0000000010007740        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007760        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.5847
-                0x000000001000774c        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000774e        0x2 
+                0x000000001000776c        0x2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000001000776e        0x2 
  .rodata._resetd_driver
-                0x0000000010007750       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010007770       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x000000001000776c       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x000000001000777f        0x1 
+                0x000000001000778c       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x000000001000779f        0x1 
  .rodata.__bi_92.7046
-                0x0000000010007780        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100077a0        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x000000001000778c       0x3a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x00000000100077c6        0x2 
+                0x00000000100077ac       0x3a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x00000000100077e6        0x2 
  .rodata.usbd_desc_cfg
-                0x00000000100077c8       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00000000100077e8       0x54 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x000000001000781c       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001000782e        0x2 
+                0x000000001000783c       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000784e        0x2 
  .rodata.usbd_desc_str
-                0x0000000010007830       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010007850       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata._hw_endpoint_alloc.str1.4
-                0x0000000010007848       0xb9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007901        0x3 
+                0x0000000010007868       0xb9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007921        0x3 
  .rodata._hw_endpoint_init.str1.4
-                0x0000000010007904       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010007924       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.hw_handle_buff_status.str1.4
-                0x000000001000792c        0xb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007937        0x1 
+                0x000000001000794c        0xb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007957        0x1 
  .rodata.dcd_rp2040_irq.str1.4
-                0x0000000010007938       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010007958       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_stall.str1.4
-                0x000000001000794c        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007959        0x3 
+                0x000000001000796c        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007979        0x3 
  .rodata.dcd_int_enable.str1.4
-                0x000000001000795c        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000797c        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.6757
-                0x0000000010007968       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x000000001000797b        0x1 
+                0x0000000010007988       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x000000001000799b        0x1 
  .rodata.__func__.6788
-                0x000000001000797c       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007992        0x2 
+                0x000000001000799c       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x00000000100079b2        0x2 
  .rodata.__func__.6809
-                0x0000000010007994       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x00000000100079a7        0x1 
+                0x00000000100079b4       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x00000000100079c7        0x1 
  .rodata.__func__.6830
-                0x00000000100079a8        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x00000000100079b1        0x3 
+                0x00000000100079c8        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x00000000100079d1        0x3 
  .rodata.__func__.6834
-                0x00000000100079b4        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x00000000100079c3        0x1 
+                0x00000000100079d4        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x00000000100079e3        0x1 
  .rodata.__func__.6843
-                0x00000000100079c4       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100079e4       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.6855
-                0x00000000100079d4        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100079f4        0xc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.6860
-                0x00000000100079e0       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x00000000100079fa        0x2 
- .rodata.__func__.6865
-                0x00000000100079fc        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007a0a        0x2 
- .rodata.__func__.6872
-                0x0000000010007a0c        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010007a00       0x1a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  *fill*         0x0000000010007a1a        0x2 
+ .rodata.__func__.6865
+                0x0000000010007a1c        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007a2a        0x2 
+ .rodata.__func__.6872
+                0x0000000010007a2c        0xe CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007a3a        0x2 
  .rodata.__func__.6877
-                0x0000000010007a1c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007a2b        0x1 
+                0x0000000010007a3c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007a4b        0x1 
  .rodata.__func__.6882
-                0x0000000010007a2c       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x0000000010007a41        0x3 
+                0x0000000010007a4c       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x0000000010007a61        0x3 
  .rodata._hw_endpoint_buffer_control_update32.str1.4
-                0x0000000010007a44       0x1f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007a63        0x1 
+                0x0000000010007a64       0x1f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007a83        0x1 
  .rodata._hw_endpoint_xfer_sync.str1.4
-                0x0000000010007a64       0x95 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007af9        0x3 
+                0x0000000010007a84       0x95 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007b19        0x3 
  .rodata._hw_endpoint_xfer_continue.str1.4
-                0x0000000010007afc       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010007b1c       0x50 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata._hw_endpoint_xfer.str1.4
-                0x0000000010007b4c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007b5b        0x1 
- .rodata.str1.4
-                0x0000000010007b5c        0x7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007b63        0x1 
- .rodata.__func__.6643
-                0x0000000010007b64       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010007b6c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  *fill*         0x0000000010007b7b        0x1 
+ .rodata.str1.4
+                0x0000000010007b7c        0x7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007b83        0x1 
+ .rodata.__func__.6643
+                0x0000000010007b84       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007b9b        0x1 
  .rodata.__func__.6654
-                0x0000000010007b7c       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010007b8e        0x2 
+                0x0000000010007b9c       0x12 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007bae        0x2 
  .rodata.process_set_config.str1.4
-                0x0000000010007b90       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007ba7        0x1 
+                0x0000000010007bb0       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007bc7        0x1 
  .rodata.process_get_descriptor
-                0x0000000010007ba8       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007bc8       0x40 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.dcd_event_handler.str1.4
-                0x0000000010007be8       0x4e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007c36        0x2 
+                0x0000000010007c08       0x4e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007c56        0x2 
  .rodata.process_control_request
-                0x0000000010007c38       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007c58       0x28 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_task
-                0x0000000010007c60       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007c80       0x24 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.6404
-                0x0000000010007c84       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007c97        0x1 
+                0x0000000010007ca4       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007cb7        0x1 
  .rodata.__func__.6411
-                0x0000000010007c98       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007cb8       0x10 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.7182
-                0x0000000010007ca8        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007cb1        0x3 
+                0x0000000010007cc8        0x9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007cd1        0x3 
  .rodata.__func__.7203
-                0x0000000010007cb4       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007cd4       0x18 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.7242
-                0x0000000010007ccc       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007cdf        0x1 
+                0x0000000010007cec       0x13 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007cff        0x1 
  .rodata.__func__.7285
-                0x0000000010007ce0       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007cf7        0x1 
+                0x0000000010007d00       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007d17        0x1 
  .rodata.__func__.7339
-                0x0000000010007cf8       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007d18       0x14 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.7375
-                0x0000000010007d0c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000010007d1b        0x1 
+                0x0000000010007d2c        0xf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000010007d3b        0x1 
  .rodata._usbd_driver
-                0x0000000010007d1c       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007d3c       0x1c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_control_xfer.str1.4
-                0x0000000010007d38       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010007d58       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .rodata.__func__.7102
-                0x0000000010007d38       0x11 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- *fill*         0x0000000010007d49        0x3 
+                0x0000000010007d58       0x11 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ *fill*         0x0000000010007d69        0x3 
  .rodata.__func__.7120
-                0x0000000010007d4c       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010007d6c       0x15 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .rodata.tud_cdc_n_write_flush.str1.4
-                0x0000000010007d61       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x0000000010007d61        0x3 
+                0x0000000010007d81       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x0000000010007d81        0x3 
  .rodata.__func__.7044
-                0x0000000010007d64       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x0000000010007d7a        0x2 
+                0x0000000010007d84       0x16 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x0000000010007d9a        0x2 
  .rodata.__func__.7073
-                0x0000000010007d7c        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x0000000010007d86        0x2 
+                0x0000000010007d9c        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x0000000010007da6        0x2 
  .rodata.__func__.7113
-                0x0000000010007d88        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010007da8        0xd CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .rodata.tusb_init.str1.4
-                0x0000000010007d95       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- *fill*         0x0000000010007d95        0x3 
+                0x0000000010007db5       0x17 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ *fill*         0x0000000010007db5        0x3 
  .rodata.__func__.6981
-                0x0000000010007d98        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010007da4                . = ALIGN (0x4)
- *fill*         0x0000000010007da2        0x2 
+                0x0000000010007db8        0xa CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010007dc4                . = ALIGN (0x4)
+ *fill*         0x0000000010007dc2        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010007da4                . = ALIGN (0x4)
+                0x0000000010007dc4                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010007da4        0x0
- .rel.iplt      0x0000000010007da4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010007dc4        0x0
+ .rel.iplt      0x0000000010007dc4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010007da4                __exidx_start = .
+                0x0000000010007dc4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010007da4                __exidx_end = .
-                0x0000000010007da4                . = ALIGN (0x4)
-                0x0000000010007da4                __binary_info_start = .
+                0x0000000010007dc4                __exidx_end = .
+                0x0000000010007dc4                . = ALIGN (0x4)
+                0x0000000010007dc4                __binary_info_start = .
 
-.binary_info    0x0000000010007da4       0x20
+.binary_info    0x0000000010007dc4       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr18
-                0x0000000010007da4        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dc4        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x0000000010007da8        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dc8        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x0000000010007dac        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dcc        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr40
-                0x0000000010007db0        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dd0        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr46
-                0x0000000010007db4        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dd4        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr71
-                0x0000000010007db8        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007dd8        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr77
-                0x0000000010007dbc        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007ddc        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr92
-                0x0000000010007dc0        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010007dc4                __binary_info_end = .
-                0x0000000010007dc4                . = ALIGN (0x4)
-                0x0000000010007dc4                __etext = .
+                0x0000000010007de0        0x4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010007de4                __binary_info_end = .
+                0x0000000010007de4                . = ALIGN (0x4)
+                0x0000000010007de4                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2555,7 +2556,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x2e8 load address 0x0000000010007dc4
+.data           0x00000000200000c0      0x2e8 load address 0x0000000010007de4
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2650,33 +2651,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000200003a8                __data_end__ = .
 
 .tm_clone_table
-                0x00000000200003a8        0x0 load address 0x00000000100080ac
+                0x00000000200003a8        0x0 load address 0x00000000100080cc
  .tm_clone_table
                 0x00000000200003a8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x00000000200003a8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x00000000200003a8        0x0 load address 0x00000000100080ac
+.igot.plt       0x00000000200003a8        0x0 load address 0x00000000100080cc
  .igot.plt      0x00000000200003a8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x00000000200003a8        0x0 load address 0x00000000100080ac
+                0x00000000200003a8        0x0 load address 0x00000000100080cc
                 0x00000000200003a8                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100080ac
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100080cc
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100080ac                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100080cc                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100080ac
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100080cc
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100080ac                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100080cc                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x00000000200003a8      0xebc
                 0x00000000200003a8                . = ALIGN (0x4)
@@ -2765,8 +2766,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100080ac        0x0
-                0x00000000100080ac                __flash_binary_end = .
+.flash_end      0x00000000100080cc        0x0
+                0x00000000100080cc                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2839,7 +2840,7 @@ LOAD CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/v
 LOAD CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /tmp/ccJ5Xy1A.o
+LOAD /tmp/ccng5VvW.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2950,7 +2951,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000705       0x2b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x0000000000000730       0x22 /tmp/ccJ5Xy1A.o
+                0x0000000000000730       0x22 /tmp/ccng5VvW.o
  .ARM.attributes
                 0x0000000000000752       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2998,52 +2999,52 @@ LOAD linker stubs
                                          0x4f (size before relaxing)
  .comment       0x00000000000000a7       0x5a /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x266fe
- .debug_info    0x0000000000000000      0xed4 CMakeFiles/template.dir/main.c.obj
- .debug_info    0x0000000000000ed4     0x1111 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0000000000001fe5      0x608 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00000000000025ed      0x48d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x0000000000002a7a      0x1cb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x0000000000002c45     0x3a37 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x000000000000667c      0xee7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000000000007563      0x16f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00000000000076d2      0xcac CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000000000000837e      0x2c9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x0000000000008647     0x1aa5 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x000000000000a0ec     0x122c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x000000000000b318     0x1007 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x000000000000c31f      0xd2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x000000000000d04b      0x1fc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x000000000000d247      0x37d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x000000000000d5c4     0x18a5 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x000000000000ee69       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_info    0x000000000000ee8f     0x1fbf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0000000000010e4e       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0000000000010e70      0x20d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x000000000001107d       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x000000000001109f       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00000000000110c1      0xaf9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x0000000000011bba       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0000000000011bdc       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0000000000011c02       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0000000000011c24      0xb42 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x0000000000012766       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x0000000000012788       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00000000000127aa       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00000000000127cc      0x2c6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x0000000000012a92     0x1857 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00000000000142e9     0x1135 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x000000000001541e     0x15e1 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x00000000000169ff      0xef8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x00000000000178f7     0x231b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x0000000000019c12     0x1534 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x000000000001b146     0x484e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x000000000001f994     0x12c7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x0000000000020c5b     0x2401 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x000000000002305c      0xdc4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x0000000000023e20     0x1f45 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x0000000000025d65       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x0000000000025d8b      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_info     0x0000000000000000    0x26738
+ .debug_info    0x0000000000000000      0xf0e CMakeFiles/template.dir/main.c.obj
+ .debug_info    0x0000000000000f0e     0x1111 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x000000000000201f      0x608 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x0000000000002627      0x48d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000000000002ab4      0x1cb CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0000000000002c7f     0x3a37 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x00000000000066b6      0xee7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000000000000759d      0x16f CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000000000000770c      0xcac CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00000000000083b8      0x2c9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0000000000008681     0x1aa5 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x000000000000a126     0x122c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x000000000000b352     0x1007 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x000000000000c359      0xd2c CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x000000000000d085      0x1fc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000000000000d281      0x37d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x000000000000d5fe     0x18a5 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x000000000000eea3       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_info    0x000000000000eec9     0x1fbf CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0000000000010e88       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0000000000010eaa      0x20d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00000000000110b7       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00000000000110d9       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00000000000110fb      0xaf9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0000000000011bf4       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0000000000011c16       0x26 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0000000000011c3c       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0000000000011c5e      0xb42 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x00000000000127a0       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x00000000000127c2       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00000000000127e4       0x22 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0000000000012806      0x2c6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x0000000000012acc     0x1857 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x0000000000014323     0x1135 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x0000000000015458     0x15e1 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x0000000000016a39      0xef8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x0000000000017931     0x231b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0000000000019c4c     0x1534 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x000000000001b180     0x484e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x000000000001f9ce     0x12c7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x0000000000020c95     0x2401 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0000000000023096      0xdc4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x0000000000023e5a     0x1f45 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x0000000000025d9f       0x26 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000025dc5      0x973 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_abbrev   0x0000000000000000     0x6d80
  .debug_abbrev  0x0000000000000000      0x2d3 CMakeFiles/template.dir/main.c.obj
@@ -3261,56 +3262,56 @@ LOAD linker stubs
  .debug_ranges  0x00000000000030c0       0x88 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_ranges  0x0000000000003148       0xd0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_line     0x0000000000000000    0x11e13
- .debug_line    0x0000000000000000      0x3fe CMakeFiles/template.dir/main.c.obj
- .debug_line    0x00000000000003fe      0x835 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000000000000c33      0x3e2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000000000001015      0x374 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000000000001389      0x1e7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000000000001570     0x1675 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x0000000000002be5      0x97a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000000000000355f      0x1af CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000000000000370e      0x749 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000000000003e57      0x22d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x0000000000004084      0x87b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00000000000048ff      0x7f9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00000000000050f8      0x9d6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000000000005ace      0x3b2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000000000005e80      0x23b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00000000000060bb      0x363 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000000000000641e      0xd91 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00000000000071af       0x86 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x0000000000007235     0x1172 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00000000000083a7      0x149 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00000000000084f0      0x15d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000000000000864d      0x2ca CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000000000008917      0x403 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000000000008d1a      0x2f7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000000000009011      0x69d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x00000000000096ae       0x99 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000000000009747      0x3c3 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000000000009b0a      0x2f1 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000000000009dfb      0x1c9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000000000009fc4       0xc3 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x000000000000a087       0xd4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x000000000000a15b      0x14d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x000000000000a2a8      0xc05 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000000aead      0x587 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x000000000000b434      0x84e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x000000000000bc82      0x396 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x000000000000c018      0xc8a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x000000000000cca2      0x7b8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000000000000d45a     0x20f6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x000000000000f550      0x67e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x000000000000fbce      0xf44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x0000000000010b12      0x534 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x0000000000011046      0xbab CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x0000000000011bf1       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000000000011c51      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000    0x11e3e
+ .debug_line    0x0000000000000000      0x429 CMakeFiles/template.dir/main.c.obj
+ .debug_line    0x0000000000000429      0x835 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x0000000000000c5e      0x3e2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000000000001040      0x374 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00000000000013b4      0x1e7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000000000000159b     0x1675 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0000000000002c10      0x97a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000000000000358a      0x1af CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000000000003739      0x749 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000003e82      0x22d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00000000000040af      0x87b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000000000000492a      0x7f9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000000000005123      0x9d6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000000000005af9      0x3b2 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000000000005eab      0x23b CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00000000000060e6      0x363 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000000000006449      0xd91 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00000000000071da       0x86 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x0000000000007260     0x1172 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00000000000083d2      0x149 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000000000000851b      0x15d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000000000008678      0x2ca CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000000000008942      0x403 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000000000008d45      0x2f7 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x000000000000903c      0x69d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x00000000000096d9       0x99 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000000000009772      0x3c3 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000000000009b35      0x2f1 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000000000009e26      0x1c9 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000000000009fef       0xc3 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000000000000a0b2       0xd4 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x000000000000a186      0x14d CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x000000000000a2d3      0xc05 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000000000000aed8      0x587 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x000000000000b45f      0x84e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x000000000000bcad      0x396 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x000000000000c043      0xc8a CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x000000000000cccd      0x7b8 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x000000000000d485     0x20f6 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x000000000000f57b      0x67e CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x000000000000fbf9      0xf44 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x0000000000010b3d      0x534 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x0000000000011071      0xbab CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x0000000000011c1c       0x60 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000011c7c      0x1c2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_str      0x0000000000000000     0x614b
  .debug_str     0x0000000000000000      0x772 CMakeFiles/template.dir/main.c.obj
-                                        0x846 (size before relaxing)
+                                        0x84d (size before relaxing)
  .debug_str     0x0000000000000772      0x3f0 CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                         0x7b7 (size before relaxing)
  .debug_str     0x0000000000000b62      0x1cc CMakeFiles/template.dir/home/savaobay/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj

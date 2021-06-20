@@ -9,12 +9,11 @@ set(CMAKE_BUILD_TYPE=Debug)
 pico_sdk_init()
 
 add_executable(${projname}
-        main.c
-        Adafruit_CCS811.cpp
+        main.cpp
         )
 
 # Pull in our pico_stdlib which pulls in commonly used features
-target_link_libraries(${projname} pico_stdlib hardware_i2c)
+target_link_libraries(${projname} pico_stdlib hardware_i2c hardware_uart)
 pico_enable_stdio_usb(${projname} 1)
 pico_enable_stdio_uart(${projname} 0)
 # create map/bin/hex file etc.
