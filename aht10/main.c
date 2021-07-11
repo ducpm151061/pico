@@ -13,20 +13,14 @@
 #define I2C_PORT i2c0
 #define I2C_FREQUENCY 400000
 
-uint8_t AHT10_ADDRESS = 0x38;     // 0111000 (7bit address)
-uint8_t AHT10_READ_DELAY_MS = 75; // Time it takes for AHT to collect data
-uint8_t AHT_TEMPERATURE_CONST = 200;
-uint8_t AHT_TEMPERATURE_OFFSET = 50;
-uint16_t KILOBYTE_CONST = 1048576;
-uint8_t FARENHEIT_MULTIPLIER = 9 / 5;
-uint8_t FARENHEIT_OFFSET = 32;
+
 
 void aht10_init()
 {
     sleep_ms(100);
     uint8_t addr = 0x38;
     uint8_t data[] = {0xE1, 0x08, 0x00};
-    i2c_write_blocking(i2c0, addr, data, 3, true);
+    i2c_write_blocking(i2c0, addr, data, 3, false);
     sleep_ms(100);
 }
 
@@ -35,16 +29,16 @@ void aht10_reset()
     sleep_ms(100);
     uint8_t addr = 0x38;
     uint8_t data = 0xBA;
-    i2c_write_blocking(i2c0, addr, &data, 1, true);
+    i2c_write_blocking(i2c0, addr, &data, 1, false);
     sleep_ms(100);
 }
 void aht10_read_raw()
 {
     sleep_ms(100);
     uint8_t addr = 0x38;
-    uint8_t reg[3] = {0xAC, 0x33, 0x00};
+    uint8_t reg[3] = {0xAC, 0x33, 0};
     uint8_t val[6];
-    i2c_write_blocking(i2c0, addr, reg, 3, true);
+    i2c_write_blocking(i2c0, addr, reg, 3, false);
     sleep_ms(100);
     i2c_read_blocking(i2c0, addr, val, 6, false);
     sleep_ms(100);
@@ -64,12 +58,6 @@ void aht10_read_raw()
     float temperature = ((float)tdata * 200 / 0x100000) - 50;
     printf("Temperature: %f\n", temperature);
     printf("Humidity: %f\n", humidity);
-    printf("%d\n", val[0]);
-    printf("%d\n", val[1]);
-    printf("%d\n", val[2]);
-    printf("%d\n", val[3]);
-    printf("%d\n", val[4]);
-    printf("%d\n", val[5]);
 }
 
 int main()
