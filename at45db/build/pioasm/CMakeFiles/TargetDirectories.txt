@@ -1,0 +1,3 @@
+/home/savaobay/pico/pico-projects/pico-c/at45db/build/pioasm/CMakeFiles/pioasm.dir
+/home/savaobay/pico/pico-projects/pico-c/at45db/build/pioasm/CMakeFiles/edit_cache.dir
+/home/savaobay/pico/pico-projects/pico-c/at45db/build/pioasm/CMakeFiles/rebuild_cache.dir
