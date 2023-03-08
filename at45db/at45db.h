@@ -91,21 +91,20 @@ public:
 
   void pageErase(uint16_t pageAddr);
   void chipErase();
-  static inline void cs_select(uint cs_pin);
-  static inline void cs_deselect(uint cs_pin);
 
 private:
   uint8_t readStatus();
+  void cs_select();
+  void cs_deselect();
   void waitTillReady();
-  void read(uint8_t reg, uint8_t *buf, uint16_t len);
-  void write(uint8_t reg, uint8_t *buf, uint16_t len);
-  uint8_t transmit(uint8_t data);
   void setPageAddr(unsigned int PageAdr);
   uint8_t getPageAddrByte0(uint16_t pageAddr);
   uint8_t getPageAddrByte1(uint16_t pageAddr);
   uint8_t getPageAddrByte2(uint16_t pageAddr);
 
   uint16_t _pageAddrShift;
+  uint8_t _ss;
+  spi_inst_t *_spi;
 };
 
 extern At45db at45db;

@@ -10,6 +10,7 @@ pico_sdk_init()
 
 add_executable(${projname}
         main.cpp
+        at45db.cpp
 )
 
 # Pull in our pico_stdlib which pulls in commonly used features
