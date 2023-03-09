@@ -1,5 +1,6 @@
 {
-    "files.associations": {
-        "i2c.h": "c"
-    }
+  "files.associations": {
+    "i2c.h": "c",
+    "string": "cpp"
+  }
 }

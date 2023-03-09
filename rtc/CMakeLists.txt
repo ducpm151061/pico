@@ -9,7 +9,8 @@ set(CMAKE_BUILD_TYPE=Debug)
 pico_sdk_init()
 
 add_executable(${projname}
-        main.c
+        main.cpp
+        ds1307.cpp
 )
 
 # Pull in our pico_stdlib which pulls in commonly used features
