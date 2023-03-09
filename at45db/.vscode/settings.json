@@ -1,5 +1,13 @@
 {
   "files.associations": {
-    "compare": "cpp"
+    "compare": "cpp",
+    "*.tcc": "cpp",
+    "unordered_map": "cpp",
+    "fstream": "cpp",
+    "istream": "cpp",
+    "numeric": "cpp",
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "functional": "cpp"
   }
 }

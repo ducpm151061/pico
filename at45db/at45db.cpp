@@ -19,16 +19,20 @@
   0x86 // Buffer 2 to main memory page program with built-in erase
 #define Buf2Write 0x87 // Buffer 2 write
 
-void At45db::init(uint8_t misoPin, uint8_t mosiPin, uint8_t sckPin,
-                  uint8_t ssPin) {
-  _ss = ssPin;
-  _spi = spi_default;
-  spi_init(_spi, 1000 * 1000);
-  gpio_set_function(misoPin, GPIO_FUNC_SPI);
-  gpio_set_function(sckPin, GPIO_FUNC_SPI);
-  gpio_set_function(mosiPin, GPIO_FUNC_SPI);
+#define SCK_PIN 2
+#define MOSI_PIN 3
+#define MISO_PIN 4
+#define CS_PIN 5
+
+void At45db::init() {
+  _ss = CS_PIN;
+  _spi = spi0;
+  spi_init(_spi, 10 * 1000 * 1000);
+  gpio_set_function(MISO_PIN, GPIO_FUNC_SPI);
+  gpio_set_function(SCK_PIN, GPIO_FUNC_SPI);
+  gpio_set_function(MOSI_PIN, GPIO_FUNC_SPI);
   // Make the SPI pins available to picotool
-  bi_decl(bi_3pins_with_func(misoPin, mosiPin, sckPin, GPIO_FUNC_SPI));
+  bi_decl(bi_3pins_with_func(MISO_PIN, MOSI_PIN, SCK_PIN, GPIO_FUNC_SPI));
 
   // Chip select is active-low, so we'll initialise it to a driven-high state
   gpio_init(_ss);
@@ -58,12 +62,14 @@ void At45db::cs_deselect() {
 }
 
 uint8_t At45db::readStatus() {
+  uint8_t reg = StatusReg;
   uint8_t result;
   cs_select();
-  uint8_t buf = StatusReg;
-  spi_write_blocking(_spi, &buf, 1);
+  spi_write_blocking(_spi, &reg, 1);
+  sleep_ms(10);
   spi_read_blocking(_spi, 0x00, &result, 1);
   cs_deselect();
+  sleep_ms(10);
   return result;
 }
 
@@ -75,84 +81,97 @@ void At45db::waitTillReady() {
 }
 
 void At45db::readID(uint8_t *data) {
+  uint8_t reg = ReadMfgID;
   cs_select();
-  uint8_t buf=ReadMfgID;
-  spi_write_blocking(_spi, &buf, 1);
+  spi_write_blocking(_spi, &reg, 1);
+  sleep_ms(10);
   spi_read_blocking(_spi, 0x00, data, 4);
   cs_deselect();
+  sleep_ms(10);
 }
 
 // Reads a number of bytes from one of the Dataflash security register
 void At45db::readSecurityReg(uint8_t *data, uint16_t size) {
+  uint8_t reg = ReadSecReg;
   cs_select();
-  uint8_t buf=ReadSecReg;
-  spi_write_blocking(_spi, &buf, 1);
+  spi_write_blocking(_spi, &reg, 1);
+  sleep_ms(10);
   spi_read_blocking(_spi, 0x00, data, size);
   cs_deselect();
+  sleep_ms(10);
 }
 
 // Transfers a page from flash to Dataflash SRAM buffer
 void At45db::readPageToBuf1(uint16_t pageAddr) {
+  uint8_t reg = FlashToBuf1Transfer;
   cs_select();
-  uint8_t buf=FlashToBuf1Transfer;
-  spi_write_blocking(_spi, &buf, 1);
+  spi_write_blocking(_spi, &reg, 1);
+  sleep_ms(10);
   setPageAddr(pageAddr);
   cs_deselect();
   waitTillReady();
+  sleep_ms(10);
 }
 
 // Reads one byte from one of the Dataflash internal SRAM buffer 1
 uint8_t At45db::readByteBuf1(uint16_t addr) {
+  uint8_t reg[] = {Buf1Read, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr), 0x00};
+  uint8_t result;
   cs_select();
-  uint8_t buf[] = {Buf1Read, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr), 0x00};
-  spi_write_blocking(_spi, buf, 5);
-  uint8_t data;
-  spi_read_blocking(_spi, 0x00, &data, 1);
+  spi_write_blocking(_spi, reg, 5);
+  sleep_ms(10);
+  spi_read_blocking(_spi, 0x00, &result, 1);
   cs_deselect();
-
-  return data;
+  sleep_ms(10);
+  return result;
 }
 
 // Reads a number of bytes from one of the Dataflash internal SRAM buffer 1
 void At45db::readStrBuf1(uint16_t addr, uint8_t *data, uint16_t size) {
+  uint8_t reg[] = {Buf1Read, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr), 0x00};
   cs_select();
-  uint8_t buf[] = {Buf1Read, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr), 0x00};
-  spi_write_blocking(_spi, buf, 5);
+  spi_write_blocking(_spi, reg, 5);
+  sleep_ms(10);
   spi_read_blocking(_spi, 0x00, data, size);
   cs_deselect();
+  sleep_ms(10);
 }
 
 // Writes one byte to one to the Dataflash internal SRAM buffer 1
 void At45db::writeByteBuf1(uint16_t addr, uint8_t data) {
-  cs_select();
-  uint8_t buf[] = {Buf1Write, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr),
+  uint8_t reg[] = {Buf1Write, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr),
                    data};
-  spi_write_blocking(_spi, buf, 5);
+  cs_select();
+  spi_write_blocking(_spi, reg, 5);
+  sleep_ms(10);
   cs_deselect();
+  sleep_ms(10);
 }
 
 // Writes a number of bytes to one of the Dataflash internal SRAM buffer 1
 void At45db::writeStrBuf1(uint16_t addr, uint8_t *data, uint16_t size) {
+  uint8_t reg[] = {Buf1Write, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr)};
   cs_select();
-  uint8_t buf[] = {Buf1Write, 0x00, (uint8_t)(addr >> 8), (uint8_t)(addr)};
-  spi_write_blocking(_spi, buf, 4);
+  spi_write_blocking(_spi, reg, 4);
   spi_write_blocking(_spi, data, size);
   cs_deselect();
 }
 
 // Transfers Dataflash SRAM buffer 1 to flash page
 void At45db::writeBuf1ToPage(uint16_t pageAddr) {
+  uint8_t buf = Buf1ToFlashWE;
   cs_select();
-  uint8_t buf=Buf1ToFlashWE;
   spi_write_blocking(_spi, &buf, 1);
+  sleep_ms(10);
   setPageAddr(pageAddr);
   cs_deselect();
   waitTillReady();
+  sleep_ms(10);
 }
 
 void At45db::pageErase(uint16_t pageAddr) {
-  cs_select();
   uint8_t buf = PageErase;
+  cs_select();
   spi_write_blocking(_spi, &buf, 1);
   setPageAddr(pageAddr);
   cs_deselect();
@@ -160,18 +179,21 @@ void At45db::pageErase(uint16_t pageAddr) {
 }
 
 void At45db::chipErase() {
-  cs_select();
   uint8_t buf[] = {0xC7, 0x94, 0x80, 0x9A};
+  cs_select();
   spi_write_blocking(_spi, buf, 4);
+  sleep_ms(10);
   cs_deselect();
   waitTillReady();
+  sleep_ms(10);
 }
 
 void At45db::setPageAddr(unsigned int pageAddr) {
-  uint8_t data[] = {getPageAddrByte0(pageAddr), getPageAddrByte1(pageAddr),
-                    getPageAddrByte2(pageAddr)};
+  uint8_t reg[] = {getPageAddrByte0(pageAddr), getPageAddrByte1(pageAddr),
+                   getPageAddrByte2(pageAddr)};
 
-  spi_write_blocking(_spi, data, 3);
+  spi_write_blocking(_spi, reg, 3);
+  sleep_ms(10);
 }
 
 /*
@@ -205,6 +227,3 @@ uint8_t At45db::getPageAddrByte1(uint16_t page) {
   return page << (DF_PAGE_BITS - 8);
 }
 uint8_t At45db::getPageAddrByte2(uint16_t page) { return 0; }
-
-// Use a single common instance
-At45db dflash;

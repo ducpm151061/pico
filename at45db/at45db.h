@@ -76,8 +76,7 @@ doc3596.pdf, 4096 pages of 256 / 264 bytes #define DF_PAGE_ADDR_BITS 12
 
                  class At45db {
 public:
-  void init(uint8_t misoPin, uint8_t mosiPin, uint8_t sckPin, uint8_t ssPin)
-      __attribute__((deprecated("Use: void init(uint8_t csPin=SS)")));
+  void init();
   void readID(uint8_t *data);
   void readSecurityReg(uint8_t *data, uint16_t size);
 
@@ -106,5 +105,3 @@ private:
   uint8_t _ss;
   spi_inst_t *_spi;
 };
-
-extern At45db at45db;
