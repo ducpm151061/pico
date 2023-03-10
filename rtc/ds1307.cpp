@@ -1,83 +1,80 @@
-
 #include "ds1307.h"
 
-#define DS1307_ADDRESS 0x68 ///< I2C address for DS1307
-#define DS1307_CONTROL 0x07 ///< Control register
-#define DS1307_NVRAM 0x08   ///< Start of RAM registers - 56 bytes, 0x08 to 0x3f
-
-#define SDA_GPIO 8
-#define SCL_GPIO 9
 #define I2C_PORT i2c0
-#define I2C_FREQUENCY 400000
+#define I2C_SDA 8
+#define I2C_SCL 9
+uint8_t DS1307::decToBcd(uint8_t val) { return ((val / 10 * 16) + (val % 10)); }
 
-void RTC_DS1307::begin() {
-  i2c_init(I2C_PORT, I2C_FREQUENCY);
-  gpio_set_function(SDA_GPIO, GPIO_FUNC_I2C);
-  gpio_set_function(SCL_GPIO, GPIO_FUNC_I2C);
-  gpio_pull_up(SDA_GPIO);
-  gpio_pull_up(SCL_GPIO);
+uint8_t DS1307::bcdToDec(uint8_t val) { return ((val / 16 * 10) + (val % 16)); }
+
+void DS1307::begin() {
+  _i2c = I2C_PORT;
+  i2c_init(_i2c, 400 * 1000);
+  gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
+  gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
+  bi_decl(bi_2pins_with_func(I2C_SDA, I2C_SCL, GPIO_FUNC_I2C));
+  gpio_pull_up(I2C_SDA);
+  gpio_pull_up(I2C_SCL);
 }
 
-uint8_t read_register(uint8_t reg) {
-  uint8_t buff;
-  i2c_read_blocking(i2c0, DS1307_ADDRESS, &reg, 1, &buff, 1, false);
-  return buff;
+void DS1307::startClock(void) {
+  uint8_t buff1 = 0x00;
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, &buff1, 1, false);
+  sleep_ms(100);
+  i2c_read_blocking(_i2c, DS1307_I2C_ADDRESS, &second, 1, false);
+  second = second & 0x7f;
+  sleep_ms(100);
+  uint8_t buff2[] = {0x00, second};
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, buff2, 2, false);
+  sleep_ms(100);
 }
-
-void write_register(uint8_t reg, uint8_t val) {
-  uint8_t buffer[2] = {reg, val};
-  i2c_write_blocking(i2c0, DS1307_ADDRESS, buffer, 2, true);
+void DS1307::stopClock(void) {
+  uint8_t buff1 = 0x00;
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, &buff1, 1, false);
+  sleep_ms(100);
+  i2c_read_blocking(_i2c, DS1307_I2C_ADDRESS, &second, 1, false);
+  sleep_ms(100);
+  second = second | 0x80;
+  uint8_t buff2[] = {0x00, second};
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, buff2, 2, false);
+  sleep_ms(100);
 }
-
-uint8_t RTC_DS1307::isrunning(void) { return !(read_register(0) >> 7); }
-
-void RTC_DS1307::adjust(const DateTime &dt) {
-  uint8_t buffer[8] = {0,
-                       bin2bcd(dt.second()),
-                       bin2bcd(dt.minute()),
-                       bin2bcd(dt.hour()),
-                       0,
-                       bin2bcd(dt.day()),
-                       bin2bcd(dt.month()),
-                       bin2bcd(dt.year() - 2000U)};
-  i2c_write_blocking(i2c0, DS1307_ADDRESS, buffer, 8, true);
+void DS1307::getTime() {
+  uint8_t buff = 0x00;
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, &buff, 1, true);
+  uint8_t data[7];
+  i2c_read_blocking(_i2c, DS1307_I2C_ADDRESS, data, 7, false);
+  second = bcdToDec(data[0] & 0x7f);
+  minute = bcdToDec(data[1]);
+  hour = bcdToDec(data[2] & 0x3f);
+  dayOfWeek = bcdToDec(data[3]);
+  dayOfMonth = bcdToDec(data[4]);
+  month = bcdToDec(data[5]);
+  year = bcdToDec(data[6]);
+  sleep_ms(100);
 }
-
-DateTime RTC_DS1307::now() {
-  uint8_t buffer[7];
-  uint8_t data = 0x00;
-  i2c_write_blocking(i2c0, DS1307_ADDRESS, &data, 1, false);
-  i2c_read_blocking(i2c0, DS1307_ADDRESS, buffer, 7, false);
-
-  return DateTime(bcd2bin(buffer[6]) + 2000U, bcd2bin(buffer[5]),
-                  bcd2bin(buffer[4]), bcd2bin(buffer[2]), bcd2bin(buffer[1]),
-                  bcd2bin(buffer[0] & 0x7F));
+void DS1307::setTime(time_t t) {
+  uint8_t buff1[] = {0x00,
+                     decToBcd(t.second),
+                     decToBcd(minute),
+                     decToBcd(hour),
+                     decToBcd(dayOfWeek),
+                     decToBcd(dayOfMonth),
+                     decToBcd(month),
+                     decToBcd(year)};
+  i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, buff1, 8, false);
+  // uint8_t buff2[] = {0x00, decToBcd(second)};
+  // i2c_write_blocking(_i2c, DS1307_I2C_ADDRESS, buff2, 2, true);
+  sleep_ms(100);
 }
-
-Ds1307SqwPinMode RTC_DS1307::readSqwPinMode() {
-  return static_cast<Ds1307SqwPinMode>(read_register(DS1307_CONTROL) & 0x93);
+void DS1307::fillByHMS(uint8_t _hour, uint8_t _minute, uint8_t _second) {
+  hour = _hour;
+  minute = _minute;
+  second = _second;
 }
-
-void RTC_DS1307::writeSqwPinMode(Ds1307SqwPinMode mode) {
-  write_register(DS1307_CONTROL, mode);
+void DS1307::fillByYMD(uint16_t _year, uint8_t _month, uint8_t _day) {
+  year = _year - 2000;
+  month = _month;
+  dayOfMonth = _day;
 }
-
-void RTC_DS1307::readnvram(uint8_t *buf, uint8_t size, uint8_t address) {
-  uint8_t addrByte = DS1307_NVRAM + address;
-  i2c_read_blocking(I2C_PORT, addrByte, buf, size, false);
-}
-
-void RTC_DS1307::writenvram(uint8_t address, const uint8_t *buf, uint8_t size) {
-  uint8_t addrByte = DS1307_NVRAM + address;
-  i2c_write_blocking(I2C_PORT, addrByte, buf, size, true);
-}
-
-uint8_t RTC_DS1307::readnvram(uint8_t address) {
-  uint8_t data;
-  readnvram(&data, 1, address);
-  return data;
-}
-
-void RTC_DS1307::writenvram(uint8_t address, uint8_t data) {
-  writenvram(address, &data, 1);
-}
+void DS1307::fillDayOfWeek(uint8_t _dow) { dayOfWeek = _dow; }
