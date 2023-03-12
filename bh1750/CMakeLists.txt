@@ -10,14 +10,14 @@ pico_sdk_init()
 
 add_executable(${projname}
         main.cpp
-        )
+        bh1750.cpp
+)
 
 # Pull in our pico_stdlib which pulls in commonly used features
 target_link_libraries(${projname} pico_stdlib hardware_i2c)
 
 pico_enable_stdio_usb(${projname} 1)
 pico_enable_stdio_uart(${projname} 0)
-
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(${projname})
